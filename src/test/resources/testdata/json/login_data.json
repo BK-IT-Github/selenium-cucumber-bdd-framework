@@ -1,0 +1,34 @@
+[
+  {
+    "testCase": "TC-LOGIN-001",
+    "scenario": "Valid Login",
+    "username": "admin@healthcare.com",
+    "password": "SecurePassword123",
+    "expectedResult": "Dashboard page is displayed",
+    "type": "Positive"
+  },
+  {
+    "testCase": "TC-LOGIN-003",
+    "scenario": "Invalid Username",
+    "username": "invalid_user@healthcare.com",
+    "password": "SecurePassword123",
+    "expectedResult": "Error message displayed",
+    "type": "Negative"
+  },
+  {
+    "testCase": "TC-LOGIN-004",
+    "scenario": "Invalid Password",
+    "username": "admin@healthcare.com",
+    "password": "WrongPassword123",
+    "expectedResult": "Error message displayed",
+    "type": "Negative"
+  },
+  {
+    "testCase": "TC-LOGIN-005",
+    "scenario": "Empty Credentials",
+    "username": "",
+    "password": "",
+    "expectedResult": "Error message displayed",
+    "type": "Negative"
+  }
+]

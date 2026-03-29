@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Theme: STANDARD or DARK -->
+        <theme>DARK</theme>
+
+        <!-- Document encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol for embedded resources (http/https) -->
+        <protocol>https</protocol>
+
+        <!-- Report Title (appears on browser tab) -->
+        <documentTitle>BK Automation - Test Execution Report</documentTitle>
+
+        <!-- Report Name (appears on top-left of report) -->
+        <reportName>Healthcare Facility Management - BDD Test Report</reportName>
+
+        <!-- Timestamp Format -->
+        <timeStampFormat>yyyy-MM-dd HH:mm:ss</timeStampFormat>
+
+        <!-- Custom CSS -->
+        <styles>
+            <![CDATA[
+                .header .vheader .nav-logo > a > img {
+                    width: 80%;
+                }
+            ]]>
+        </styles>
+
+        <!-- Custom JS -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    // Custom JS if needed
+                });
+            ]]>
+        </scripts>
+    </configuration>
+</extentreports>

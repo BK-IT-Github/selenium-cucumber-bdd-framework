@@ -1,0 +1,16 @@
+[
+  {
+    "testCase": "TC-DASH-001",
+    "scenario": "Dashboard Verification",
+    "module": "Dashboard",
+    "expectedWidget": "Facility Overview",
+    "type": "Positive"
+  },
+  {
+    "testCase": "TC-DASH-006",
+    "scenario": "Dashboard Search",
+    "searchKeyword": "facility",
+    "expectedResult": "Search results displayed",
+    "type": "Positive"
+  }
+]
